@@ -1,0 +1,107 @@
+
+.menu {
+    margin-top: 200px; 
+  }
+  .menu{
+    
+    background: rgba(247, 249, 252, 1);
+  }
+  .menu__container {
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(247, 249, 252, 1);
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu__list {
+    flex: 1;
+    padding: 0;
+  }
+  
+  .menu__item {
+    margin-bottom: 20px;
+  }
+  
+  .menu__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .menu__text {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .menu__contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu__contact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .menu__contact-info p {
+    margin: 0;
+  }
+  
+  .menu__button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu__button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for second column - Form */
+  .menu__form {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu__form li {
+    margin-bottom: 15px;
+  }
+  
+  .menu__form p {
+    margin: 0 0 5px;
+  }
+  
+  .menu__form input[type="text"],
+  .menu__form input[type="tel"],
+  .menu__form input[type="email"],
+  .menu__form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .menu__form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu__form button:hover {
+    background-color: #218838;
+  }
+  
