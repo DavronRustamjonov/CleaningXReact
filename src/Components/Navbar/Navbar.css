@@ -32,7 +32,17 @@
     transition: width 0.3s ease;
 }
 
+.nav__link::before {
+    left: 0; 
+}
 
+.nav__link::after {
+    right: 0; 
+}
+
+.nav__link:hover::before {
+    width: 50%; 
+}
 
 .nav__link:hover::after {
     width: 50%; 
