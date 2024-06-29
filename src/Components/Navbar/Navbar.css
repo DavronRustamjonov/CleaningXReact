@@ -18,6 +18,7 @@
     line-height: 30.01px;
     text-align: left;
     position: relative; 
+    color: black;
 }
 
 .nav__link::before,
@@ -31,17 +32,7 @@
     transition: width 0.3s ease;
 }
 
-.nav__link::before {
-    left: 0; 
-}
 
-.nav__link::after {
-    right: 0; 
-}
-
-.nav__link:hover::before {
-    width: 50%; 
-}
 
 .nav__link:hover::after {
     width: 50%; 
