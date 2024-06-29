@@ -6,6 +6,7 @@ const Menu = () => {
   return (
     <div className="menu">
       <div className="container menu__container">
+        
         <ul className="menu__list">
           <li className="menu__item">
             <h3 className="menu__title">Contact Us</h3>
@@ -63,8 +64,7 @@ const Menu = () => {
             </li>
             </ul>
           </form>
-        
-      </div>
+          </div>
     </div>
   );
 }

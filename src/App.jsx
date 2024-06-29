@@ -6,6 +6,7 @@ import Section from './Components/Section/Section.jsx';
 import Service from './Components/Service/Service.jsx';
 import About from './Components/About/About.jsx';
 import Menu from './Components/Menu/Menu.jsx';
+import Card from './Components/Card/Card.jsx';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Service/>
       <About/>
       <Menu/>
+      <Card/>
     </div>
   );
 }
