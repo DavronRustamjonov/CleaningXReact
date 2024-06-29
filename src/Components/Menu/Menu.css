@@ -1,6 +1,6 @@
 
   .menu{
-    
+    margin-top: 200px;
     background: rgba(247, 249, 252, 1);
   }
   .menu__container {
@@ -184,6 +184,9 @@
 @media(max-width:1120px){
   .container{
       width: 1000px;
+  }
+  .menu{
+margin-top: 30px;
   }
 }
 @media(max-width:1020px){

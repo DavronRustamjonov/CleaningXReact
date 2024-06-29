@@ -7,6 +7,7 @@ import Service from './Components/Service/Service.jsx';
 import About from './Components/About/About.jsx';
 import Menu from './Components/Menu/Menu.jsx';
 import Card from './Components/Card/Card.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <About/>
       <Menu/>
       <Card/>
+      <Footer/>
     </div>
   );
 }
