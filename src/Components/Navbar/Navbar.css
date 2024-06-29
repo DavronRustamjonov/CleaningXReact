@@ -27,27 +27,16 @@
     position: absolute;
     bottom: 0;
     width: 0; 
-    height: 3px; 
+    height: 2px; 
     background-color: black; 
-    transition: width 0.3s ease;
+    transition: all 0.3s ease;
 }
-
 .nav__link::before {
     left: 0; 
 }
-
-.nav__link::after {
-    right: 0; 
-}
-
 .nav__link:hover::before {
-    width: 50%; 
+    width: 100%; 
 }
-
-.nav__link:hover::after {
-    width: 50%; 
-}
-
 .nav__sublink{
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -59,11 +48,20 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
+    align-items: center;
     text-align: center;
     padding: 10px 5px ;
     display: inline-block;
     border-radius: 14px;
+     
+    transition: all 0.3s ease;
 
+}
+.nav__sublink:hover{
+    
+    background: rgba(255, 255, 255, 1);
+    color:rgba(0, 117, 255, 1);
+    border: 1px solid rgba(0, 117, 255, 1);
 }
 #nav__btn{
     border: none;
